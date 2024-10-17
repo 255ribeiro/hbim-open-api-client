@@ -9,6 +9,7 @@ client = Client(base_url="http://127.0.0.1:8000/")
 # client.__exit__()
 
 with client as client:
+  
     user_info = UserSchema(
         "ffribeiro2",
         "Fernando Ferraz Ribeiro",
@@ -19,6 +20,7 @@ with client as client:
     )
 
     my_data = create_user_users_post.sync(client=client, body= user_info)
+    
 
     print(my_data)
 

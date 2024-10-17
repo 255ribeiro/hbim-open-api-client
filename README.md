@@ -122,3 +122,7 @@ If you want to install this client into another project without publishing it (e
 1. If that project is not using Poetry:
     1. Build a wheel with `poetry build -f wheel`
     1. Install that wheel from the other project `pip install <path-to-wheel>`
+
+## Blender python
+
+[https://www.youtube.com/watch?v=x3QRp2k013k&list=PLB8-FQgROBmlqzZ4HBzIAGpho-xp0Bn_h](https://www.youtube.com/watch?v=x3QRp2k013k&list=PLB8-FQgROBmlqzZ4HBzIAGpho-xp0Bn_h)
